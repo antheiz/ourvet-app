@@ -23,8 +23,8 @@
       <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
         <div class="card card-signin my-5">
           <div class="card-body">
-            <img src="{{ url('img/ourvet.png') }}" class="" width="120px" alt="">
-            <h5 class="card-title text-center" style="margin-top: -45px">Welcome</h5>
+            <img src="{{ url('img/ourvet.png') }}" style="margin-left:-20px" class="" width="120px" alt="">
+            <h5 class="card-title text-center ml-4" style="margin-top: -45px">Welcome</h5>
             <hr style="border:1px solid; margin: 0px 0 40px 0">
             <div class="form-signin">
               <div class="form-label-group d-flex justify-content-center">
