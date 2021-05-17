@@ -27,7 +27,7 @@
 - php artisan serve
 - buka browser favorit kamu, dan ketik/masukan ini *http://localhost:8000* or *http://127.0.0.1:8000*
 - jika sukses akan muncul seperti ini.
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://i.stack.imgur.com/4biko.png" width="800" style="border-radius:5px;"></a></p>
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="public/img/demo.png" width="800" style="border-radius:5px;"></a></p>
 
 
 
