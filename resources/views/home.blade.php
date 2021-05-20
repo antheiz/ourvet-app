@@ -37,19 +37,51 @@
           <br><small style="color: #8190A5">Keranjang</small>
         </a>
         <p style="font-size: 40px; margin-top:-10px">|</p>
-        <a class="nav-item nav-link text-dark" href="#">
+        <li class="nav-item dropdown" style="margin-right: 50%">
+          <a class="nav-item nav-link dropdown-toggle text-dark" data-toggle="dropdown" href="#">
+            <i class="fas fa-user mr-3 text-center" style="font-size: 27px"></i>
+            <br><small style="color: #8190A5">Budi</small>
+          </a>
+          <ul class="dropdown-menu dropdown-menu-right text-uppercase" >
+              <li>
+                  <a class="dropdown-item" href="/profile">
+                      <i class="fas fa-user mr-1"></i>
+                      Profile
+                  </a>
+              </li>
+              <li>
+                  <a class="dropdown-item" href="/signin">
+                      <i class="fas fa-sign-out-alt mr-1"></i>
+                      Logout
+                  </a>
+              </li>
+          </ul>
+      </li>
+      {{-- <div class="btn-group dropdown">
+        <a class="nav-item nav-link dropdown-toggle text-dark" data-toggle="dropdown" href="#">
           <i class="fas fa-user mr-3 text-center" style="font-size: 27px"></i>
           <br><small style="color: #8190A5">Budi</small>
         </a>
+        <div class="dropdown-menu dropdown-menu-right">
+          <button class="dropdown-item" type="button">
+            <i class="fas fa-user mr-1"></i>
+                      Profile
+          </button>
+          <button class="dropdown-item" type="button">
+            <i class="fas fa-sign-out-alt mr-1"></i>
+                      Logout
+          </button>
+        </div>
+      </div> --}}
       </div>
     </div>
   </nav>
   <hr style="border:1px solid">
   <div class="container">
-    <h1 style="display:inline-block">
+    <div style="display:inline-block">
       <i class="far fa-user text-center mt-3" style="font-size: 45px"></i>
       <h4 style="color:#47525E; display:inline-block" class="ml-4">Welcome, Budi!</h4>
-    </h1>
+    </div>
     <div class="row" style="margin-top:5%">
       <div class="col">
         <div class="card" style="width: 13rem;">
