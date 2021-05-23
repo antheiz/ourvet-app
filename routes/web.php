@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/', function () {
+    return view('index');
+});
+
 Route::get('/signin', function () {
     return view('signin');
 });
@@ -27,4 +31,9 @@ Route::get('/profile', function () {
 
 Route::get('/register', function () {
     return view('register');
+});
+
+// Komunitas
+Route::get('/komunitas', function () {
+    return view('komunitas/index');
 });
