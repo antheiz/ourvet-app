@@ -38,6 +38,15 @@ Route::get('/komunitas', function () {
     return view('komunitas/index');
 });
 
+Route::get('/komunitas/buat_pertanyaan', function () {
+    return view('komunitas/create');
+});
+
+Route::get('/komunitas/detail_pertanyaan', function () {
+    return view('komunitas/detail');
+});
+
+
 
 //pembayaran
 Route::get('/pembayaran', function () {

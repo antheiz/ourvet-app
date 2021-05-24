@@ -23,7 +23,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg ">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="/home">
             <img src="{{ url('img/ourvet.png') }}" class="mt-2" width="120px" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -62,16 +62,38 @@
                         </li>
                     </ul>
                 </li>
+                {{-- <div class="btn-group dropdown">
+        <a class="nav-item nav-link dropdown-toggle text-dark" data-toggle="dropdown" href="#">
+          <i class="fas fa-user mr-3 text-center" style="font-size: 27px"></i>
+          <br><small style="color: #8190A5">Budi</small>
+        </a>
+        <div class="dropdown-menu dropdown-menu-right">
+          <button class="dropdown-item" type="button">
+            <i class="fas fa-user mr-1"></i>
+                      Profile
+          </button>
+          <button class="dropdown-item" type="button">
+            <i class="fas fa-sign-out-alt mr-1"></i>
+                      Logout
+          </button>
+        </div>
+      </div> --}}
             </div>
         </div>
     </nav>
     <hr style="border:1px solid">
-    <div class="container">
+    <div class="container" style="height: 800px">
         <div class="row">
             <div class="col">
-                {{-- <i class="far fa-user text-center mt-3" style="font-size: 45px"></i> --}}
-                <h4 style="color:#00A6FF; display:inline-block">Semua Pertanyaan</h4>
-                <p>301 Diskusi</p>
+                <a href="/komunitas" class="btn btn-warning text-white"><b> <i class="fas fa-arrow-circle-left"></i> Kembali</b></a>
+                <div class="col-6 mt-5 pb-5 pt-3 bg-white" style="border-radius: 10px">
+                    <p>
+                        <b>
+                            Bagaimana cara merawat Kucing <br> Peliharaan?
+                        </b>
+                    </p>
+                </div>
+                <p class="mt-2">30 Jawaban</p>
             </div>
             <div class="">
                 <form class="form-inline my-2 my-lg-0">
@@ -80,13 +102,13 @@
                 </form>
             </div>
         </div>
-        <div class="row" style="margin-top:5%">
-            <div class="col">
-                <a href="" class="btn btn-primary">Terbaru</a>
-                <a href="" class="btn btn-primary ml-3">Belum Dijawab</a>
+        <div class="row" style="margin-top:2%">
+            <div class="col" style="margin-left: 25%">
+                <a href="" class="btn btn-primary">Terbaik</a>
+                <a href="" class="btn btn-primary ml-3">Terbaru</a>
             </div>
             <div class="my-2 my-lg-0">
-                <a href="/komunitas/buat_pertanyaan" class="btn btn-info"><i class="fas fa-plus-circle"></i> Buat Pertanyaan</a>
+                <a href="/komunitas/buat_pertanyaan" class="btn btn-info"><i class="fas fa-plus-circle"></i> Komentar</a>
             </div>
         </div>
         <div class="row" style="margin-top:3%">
@@ -107,32 +129,33 @@
             </div>
             <div class="col-1">
                 <div class="text-dark bg-white">
-                    <img src="https://image.freepik.com/free-vector/404-error-background_23-2148071744.jpg" class="" width="120px">
+                    <img src="https://www.kindpng.com/picc/m/264-2644335_lost-and-found-transparent-lost-icon-png-png.png" width="120px">
                 </div> <br>
 
                 <div class="text-dark bg-white">
-                    <img src="https://image.freepik.com/free-vector/404-error-background_23-2148071744.jpg" width="120px">
+                    <img src="https://www.kindpng.com/picc/m/264-2644335_lost-and-found-transparent-lost-icon-png-png.png" width="120px" style="margin-top: -8px">
                 </div> 
             </div>
             <div class="col" style="margin-left: 25px">
                 <div class="text-dark bg-white pl-2" style="height: 120px">
                     <div class="row">
                         <div class="col">
-                            <p><b>John Doe</b> <i>1 jam yang lalu</i></p> 
-                            <a href="/komunitas/detail_pertanyaan">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            </a>
-                            <a href="" class="btn btn-primary">
-                                <i class="fas fa-tags"></i>
-                                Kucing
+                            <p><b>Mark Joe</b> <i>5 jam yang lalu</i></p> 
+                            <p>Berikan makanan bernutrisi tinggi</p>
+                            <a href="">
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-dark"></i>
                             </a>
                         </div>
                         <div class="col-2">
-                            <p> <b>5</b>
-                                <i class="fas fa-comments pt-2 ml-3" style="font-size: 30px"></i>
-                            </p>
                             <p> <b>10</b>
-                                <i class="fas fa-chart-bar pt-3 ml-3" style="font-size: 30px"></i>
+                                <i class="fas fa-thumbs-up pt-2 ml-3" style="font-size: 30px"></i>
+                            </p>
+                            <p> <b>5</b>
+                                <i class="fas fa-thumbs-down pt-3 ml-3" style="font-size: 30px"></i>
                             </p>
                         </div>
                     </div>
@@ -141,26 +164,46 @@
                 <div class="text-dark bg-white pl-2" style="height: 120px">
                     <div class="row">
                         <div class="col">
-                            <p><b>Jane Doe</b> <i> 1 jam yang lalu</i></p> 
-                            <a href="/komunitas/detail_pertanyaan">
-                                <p>Apa makanan yang baik untuk kucing ?</p>
-                            </a>
-                            <a href="" class="btn btn-primary">
-                                <i class="fas fa-tags"></i>
-                                Kucing
+                            <p><b>Paskahlia</b> <i> 4 jam yang lalu</i></p> 
+                            <p>Pastikan kucing anda mendapat tempat yang nyaman untuk beristirahat.</p>
+                            <a href="" class="text-warning">
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
                             </a>
                         </div>
                         <div class="col-2">
                             <p> <b>5</b>
-                                <i class="fas fa-comments pt-2 ml-3" style="font-size: 30px"></i>
+                                <i class="fas fa-thumbs-up pt-2 ml-3" style="font-size: 30px"></i>
                             </p>
-                            <p> <b>10</b>
-                                <i class="fas fa-chart-bar pt-3 ml-3" style="font-size: 30px"></i>
+                            <p> <b>1</b>
+                                <i class="fas fa-thumbs-down pt-3 ml-3" style="font-size: 30px"></i>
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="mt-5 d-flex justify-content-end">
+            <ul class="pagination">
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                  <span class="sr-only">Previous</span>
+                </a>
+              </li>
+              <li class="page-item"><a class="page-link text-white bg-primary" href="#">1</a></li>
+              <li class="page-item"><a class="page-link text-dark" href="#">2</a></li>
+              <li class="page-item"><a class="page-link text-dark" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </li>
+            </ul>
         </div>
     </div>
 

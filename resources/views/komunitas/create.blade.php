@@ -12,6 +12,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    
     <link href="{{ url('css/styles.css') }}" rel="stylesheet">
     {{-- <link href="{{ secure_asset('css/styles.css') }}" rel="stylesheet"> --}}
     <style>
@@ -23,7 +24,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg ">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="/home">
             <img src="{{ url('img/ourvet.png') }}" class="mt-2" width="120px" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -62,6 +63,7 @@
                         </li>
                     </ul>
                 </li>
+                
             </div>
         </div>
     </nav>
@@ -69,9 +71,8 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                {{-- <i class="far fa-user text-center mt-3" style="font-size: 45px"></i> --}}
-                <h4 style="color:#00A6FF; display:inline-block">Semua Pertanyaan</h4>
-                <p>301 Diskusi</p>
+                
+                <a href="/komunitas" class="btn btn-warning text-white"><b> <i class="fas fa-arrow-circle-left"></i> Kembali</b></a>
             </div>
             <div class="">
                 <form class="form-inline my-2 my-lg-0">
@@ -80,85 +81,18 @@
                 </form>
             </div>
         </div>
-        <div class="row" style="margin-top:5%">
-            <div class="col">
-                <a href="" class="btn btn-primary">Terbaru</a>
-                <a href="" class="btn btn-primary ml-3">Belum Dijawab</a>
-            </div>
-            <div class="my-2 my-lg-0">
-                <a href="/komunitas/buat_pertanyaan" class="btn btn-info"><i class="fas fa-plus-circle"></i> Buat Pertanyaan</a>
-            </div>
-        </div>
-        <div class="row" style="margin-top:3%">
-            <div class="col-3">
-                <div class="text-dark text-center pt-2 pb-2" style="background-color: #DDE1DF;"><b>Kategori</b></div> 
-                <a href="" class="text-dark bg-white pt-3 pb-3 text-center d-block">
-                    <b>Anjing</b>
-                </a>
-                <a href="" class="text-dark pt-3 pb-3 text-center d-block" style="background-color:#a4a9b1">
-                    <b>Kucing</b>
-                </a>
-                <a href="" class="text-dark bg-white pt-3 pb-3 text-center d-block">
-                    <b>Marmut</b>
-                </a>
-                <a href="" class="text-dark bg-white pt-3 pb-3 text-center d-block">
-                    <b>Hamsters</b>
-                </a>
-            </div>
-            <div class="col-1">
-                <div class="text-dark bg-white">
-                    <img src="https://image.freepik.com/free-vector/404-error-background_23-2148071744.jpg" class="" width="120px">
-                </div> <br>
-
-                <div class="text-dark bg-white">
-                    <img src="https://image.freepik.com/free-vector/404-error-background_23-2148071744.jpg" width="120px">
-                </div> 
-            </div>
-            <div class="col" style="margin-left: 25px">
-                <div class="text-dark bg-white pl-2" style="height: 120px">
-                    <div class="row">
-                        <div class="col">
-                            <p><b>John Doe</b> <i>1 jam yang lalu</i></p> 
-                            <a href="/komunitas/detail_pertanyaan">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            </a>
-                            <a href="" class="btn btn-primary">
-                                <i class="fas fa-tags"></i>
-                                Kucing
-                            </a>
-                        </div>
-                        <div class="col-2">
-                            <p> <b>5</b>
-                                <i class="fas fa-comments pt-2 ml-3" style="font-size: 30px"></i>
-                            </p>
-                            <p> <b>10</b>
-                                <i class="fas fa-chart-bar pt-3 ml-3" style="font-size: 30px"></i>
-                            </p>
-                        </div>
-                    </div>
-                </div> <br>
-
-                <div class="text-dark bg-white pl-2" style="height: 120px">
-                    <div class="row">
-                        <div class="col">
-                            <p><b>Jane Doe</b> <i> 1 jam yang lalu</i></p> 
-                            <a href="/komunitas/detail_pertanyaan">
-                                <p>Apa makanan yang baik untuk kucing ?</p>
-                            </a>
-                            <a href="" class="btn btn-primary">
-                                <i class="fas fa-tags"></i>
-                                Kucing
-                            </a>
-                        </div>
-                        <div class="col-2">
-                            <p> <b>5</b>
-                                <i class="fas fa-comments pt-2 ml-3" style="font-size: 30px"></i>
-                            </p>
-                            <p> <b>10</b>
-                                <i class="fas fa-chart-bar pt-3 ml-3" style="font-size: 30px"></i>
-                            </p>
-                        </div>
-                    </div>
+        <div style="margin-top:6%">
+            <div class="jumbotron bg-white" style="width: 80%; margin-left:120px">
+                <h4 class="text-center" style="color: #47525E; margin-top:-50px">Buat Pertanyaan</h4>
+                <hr style="border: 1px solid">
+                <i class="fas fa-user-circle mt-4 d-" style="font-size: 30px"></i>
+                <p>Budi</p>
+                <textarea name="" id="" cols="78" rows="10" class="ml-5"></textarea>
+                <br>
+                <i class="fas fa-tags mt-5 ml-5" style="font-size: 20px; color:rgb(248, 73, 3)"></i>
+                <i class="fas fa-images mt-5 ml-3 text-success" style="font-size: 25px"></i>
+                <div class="text-right">
+                    <button type="submit" class="btn btn-dark">Kirim</button>
                 </div>
             </div>
         </div>
