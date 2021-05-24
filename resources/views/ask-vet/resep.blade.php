@@ -10,11 +10,14 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link href="{{ url('css/styles.css') }}" rel="stylesheet">
     {{-- <link href="{{ secure_asset('css/styles.css') }}" rel="stylesheet"> --}}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
 
-
+    .checked {
+        color: orange;
+    }
     </style>
-    <title>My-Vet | OurVet</title>
+    <title>Penilaian | OurVet</title>
   </head>
 
 <body>
@@ -72,30 +75,102 @@
                       Logout
           </button>
         </div>
-      </div> --}}
+      </div>--}}
       </div>
     </div>
   </nav>
   <hr style="border:1px solid">
-
-    <div class="container">
-            <div>
-                <a style = "float: right;">
-                    <button type="button" class="btn btn-outline-dark">+ Tambah Catatan</button>
-                </a>
-                <a style = "float: left;">
-                    <p style="color: #5c646e">Catatan Riwayat Kesehatan Hewan</p>
-                </a>
-            </div>
+  <!-- div class="container">
+    <div style="display:inline-block">
+      <i class="far fa-user text-center mt-3" style="font-size: 45px"></i>
+      <h4 style="color:#47525E; display:inline-block" class="ml-4">Welcome, Budi!</h4>
     </div>
-
-    <div class="container d-flex justify-content-center">
-        <div class="jumbotron mt-3" style="background-color: #FFBA5C; width:100%; height:450px;">
-            <p class="text-center text-align: center;">Anda Tidak Memiliki Catatan</p>
-            </div>
+    <div class="row" style="margin-top:5%">
+      <div class="col">
+        <div class="card" style="width: 13rem;">
+          <img src="http://images.ctfassets.net/39g3nzg2xk87/71R2xAJ5MS1u1CBbZvnMbY/083112be72b7a6eaef090f55e0b68a0a/unknown-x-sharing-image.jpg" class="card-img-top" alt="...">
         </div>
+        <div class="card-body">
+          <p class="card-text ml-5" style="color: #47525E">VetUpdate</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 13rem;">
+          <img src="http://images.ctfassets.net/39g3nzg2xk87/71R2xAJ5MS1u1CBbZvnMbY/083112be72b7a6eaef090f55e0b68a0a/unknown-x-sharing-image.jpg" class="card-img-top" alt="...">
+        </div>
+        <div class="card-body">
+          <p class="card-text ml-5" style="color: #47525E">AskVet</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 13rem;">
+          <img src="http://images.ctfassets.net/39g3nzg2xk87/71R2xAJ5MS1u1CBbZvnMbY/083112be72b7a6eaef090f55e0b68a0a/unknown-x-sharing-image.jpg" class="card-img-top" alt="...">
+        </div>
+        <div class="card-body">
+          <p class="card-text ml-5" style="color: #47525E">DailyVet</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 13rem;">
+          <img src="http://images.ctfassets.net/39g3nzg2xk87/71R2xAJ5MS1u1CBbZvnMbY/083112be72b7a6eaef090f55e0b68a0a/unknown-x-sharing-image.jpg" class="card-img-top" alt="...">
+        </div>
+        <div class="card-body">
+          <p class="card-text ml-5" style="color: #47525E">VetHouseLoc</p>
+        </div>
+      </div>
+    <div class="row">
+      <div class="col mr-5 ml-3">
+        <div class="card" style="width: 13rem;">
+          <img src="http://images.ctfassets.net/39g3nzg2xk87/71R2xAJ5MS1u1CBbZvnMbY/083112be72b7a6eaef090f55e0b68a0a/unknown-x-sharing-image.jpg" class="card-img-top" alt="...">
+        </div>
+        <div class="card-body">
+          <p class="card-text ml-5" style="color: #47525E">MyVet</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 13rem;">
+          <img src="http://images.ctfassets.net/39g3nzg2xk87/71R2xAJ5MS1u1CBbZvnMbY/083112be72b7a6eaef090f55e0b68a0a/unknown-x-sharing-image.jpg" class="card-img-top" alt="...">
+        </div>
+        <div class="card-body">
+          <p class="card-text ml-5" style="color: #47525E">Komunitas</p>
+        </div>
+      </div>
     </div>
+    </div>
+  </div> -->
+  <div class="container">
+    <a style = "float: right;">
+        <button type="button" class="btn btn-outline-dark">Selanjutnya</button>
+    </a>
+    <br>
 
+    <div class="row mt-5">
+      <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+        <div class="card card-signin my-5">
+          <div class="card-body" style="background-color: #2cdd76;">
+            <div class="text-align: justify">
+            <p> <strong>drh. Ananda Putro </strong> </p>
+            <strong> Waktu : </strong> 17 Februari 2021
+            <br>
+            <strong> Jenis Hewan : </strong> Kucing
+            <br>
+            <strong> Umur : </strong> 5 bulan
+            <br>
+            <strong> Catatan : </strong>
+            <br>
+            <p> Kucing diberi shampoo plankton 3x sehari agar bulu tidak rontok. </p>
+            <!--i class="far fa-user text-center mt-3" style="font-size: 45px"></i>
+            <i class="fas fa-user mr-3 text-center" style="font-size: 27px"></i> -->
+            </div>
+
+            <div style = "float: right;">
+                <button type="button" class="btn btn-secondary">Cetak</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
