@@ -28,3 +28,11 @@ Route::get('/profile', function () {
 Route::get('/register', function () {
     return view('register');
 });
+
+//Route Untuk AskVet
+Route::get('/askvet', function () {
+    return view('ask-vet/askvet');
+});
+Route::get('/konsultasi', function () {
+    return view('ask-vet/konsultasi');
+});
