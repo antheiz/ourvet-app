@@ -14,7 +14,7 @@
 
 
     </style>
-    <title>My-Vet | OurVet</title>
+    <title>Pembayaran | OurVet</title>
   </head>
 
 <body>
@@ -27,10 +27,25 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav ml-auto mt-3">
-        <a class="nav-item nav-link text-dark text-center" href="#">
-          <i class="fas fa-file-invoice" style="font-size: 27px"></i>
+        <a class="nav-item nav-link dropdown-toggle text-dark" data-toggle="dropdown" href="#">
+          <i class="fas fa-file-invoice text-center" style="font-size: 27px"></i>
           <br><small style="color: #8190A5">Pembayaran</small>
         </a>
+        <ul class="dropdown-menu dropdown-menu-right text-uppercase" >
+            <li>
+                <a class="dropdown-item" href="/pembayaran">
+                    <i class="fas fa-user mr-1"></i>
+                    Pembayaran
+                </a>
+            </li>
+            <li>
+                <a class="dropdown-item" href="/historytransaksi">
+                    <i class="fas fa-sign-out-alt mr-1"></i>
+                    History Transaction
+                </a>
+            </li>
+        </ul>
+
         <p style="font-size: 40px; margin-top:-10px">|</p>
         <a class="nav-item nav-link text-dark text-center" href="#">
           <i class="fas fa-shopping-cart" style="font-size: 27px"></i>
@@ -77,25 +92,64 @@
     </div>
   </nav>
   <hr style="border:1px solid">
-
-    <div class="container">
-            <div>
-                <a style = "float: right;">
-                    <button type="button" class="btn btn-outline-dark">+ Tambah Catatan</button>
-                </a>
-                <a style = "float: left;">
-                    <p style="color: #5c646e">Catatan Riwayat Kesehatan Hewan</p>
-                </a>
-            </div>
+  <div class="container">
+    <div style="display:inline-block">
+      <i class="far fa-user text-center mt-3" style="font-size: 45px"></i>
+      <h4 style="color:#47525E; display:inline-block" class="ml-4">Welcome, Budi!</h4>
     </div>
-
-    <div class="container d-flex justify-content-center">
-        <div class="jumbotron mt-3" style="background-color: #FFBA5C; width:100%; height:450px;">
-            <p class="text-center text-align: center;">Anda Tidak Memiliki Catatan</p>
-            </div>
+    <div class="row" style="margin-top:5%">
+      <div class="col">
+        <div class="card" style="width: 13rem;">
+          <img src="http://images.ctfassets.net/39g3nzg2xk87/71R2xAJ5MS1u1CBbZvnMbY/083112be72b7a6eaef090f55e0b68a0a/unknown-x-sharing-image.jpg" class="card-img-top" alt="...">
         </div>
+        <div class="card-body">
+          <p class="card-text ml-5" style="color: #47525E">VetUpdate</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 13rem;">
+          <img src="http://images.ctfassets.net/39g3nzg2xk87/71R2xAJ5MS1u1CBbZvnMbY/083112be72b7a6eaef090f55e0b68a0a/unknown-x-sharing-image.jpg" class="card-img-top" alt="...">
+        </div>
+        <div class="card-body">
+          <p class="card-text ml-5" style="color: #47525E">AskVet</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 13rem;">
+          <img src="http://images.ctfassets.net/39g3nzg2xk87/71R2xAJ5MS1u1CBbZvnMbY/083112be72b7a6eaef090f55e0b68a0a/unknown-x-sharing-image.jpg" class="card-img-top" alt="...">
+        </div>
+        <div class="card-body">
+          <p class="card-text ml-5" style="color: #47525E">DailyVet</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 13rem;">
+          <img src="http://images.ctfassets.net/39g3nzg2xk87/71R2xAJ5MS1u1CBbZvnMbY/083112be72b7a6eaef090f55e0b68a0a/unknown-x-sharing-image.jpg" class="card-img-top" alt="...">
+        </div>
+        <div class="card-body">
+          <p class="card-text ml-5" style="color: #47525E">VetHouseLoc</p>
+        </div>
+      </div>
+    <div class="row">
+      <div class="col mr-5 ml-3">
+        <div class="card" style="width: 13rem;">
+          <img src="http://images.ctfassets.net/39g3nzg2xk87/71R2xAJ5MS1u1CBbZvnMbY/083112be72b7a6eaef090f55e0b68a0a/unknown-x-sharing-image.jpg" class="card-img-top" alt="...">
+        </div>
+        <div class="card-body">
+          <p class="card-text ml-5" style="color: #47525E">MyVet</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 13rem;">
+          <img src="http://images.ctfassets.net/39g3nzg2xk87/71R2xAJ5MS1u1CBbZvnMbY/083112be72b7a6eaef090f55e0b68a0a/unknown-x-sharing-image.jpg" class="card-img-top" alt="...">
+        </div>
+        <div class="card-body">
+          <p class="card-text ml-5" style="color: #47525E">Komunitas</p>
+        </div>
+      </div>
     </div>
-
+    </div>
+  </div>
 
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

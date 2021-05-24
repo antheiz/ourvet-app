@@ -14,7 +14,7 @@
 
 
     </style>
-    <title>My-Vet | OurVet</title>
+    <title>Tambah Catatan Kesehatan Hewan | OurVet</title>
   </head>
 
 <body>
@@ -72,30 +72,33 @@
                       Logout
           </button>
         </div>
-      </div> --}}
+      </div>
+           <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> harusnya taro head --}}
       </div>
     </div>
   </nav>
   <hr style="border:1px solid">
 
-    <div class="container">
-            <div>
-                <a style = "float: right;">
-                    <button type="button" class="btn btn-outline-dark">+ Tambah Catatan</button>
-                </a>
-                <a style = "float: left;">
-                    <p style="color: #5c646e">Catatan Riwayat Kesehatan Hewan</p>
-                </a>
-            </div>
-    </div>
+  <div class="container">
+    <div class="jumbotron mt-3" style="background-color: #ffffff;">
+        <div>
+            <i class="far fa-times-circle" style="float: right; font-size: 27px"></i>
+        </div>
+        <br>
+        <br>
 
-    <div class="container d-flex justify-content-center">
-        <div class="jumbotron mt-3" style="background-color: #FFBA5C; width:100%; height:450px;">
-            <p class="text-center text-align: center;">Anda Tidak Memiliki Catatan</p>
+            <div class="form-group">
+                <input type="judul" class="form-control" placeholder="Judul Catatan" id="jdl">
             </div>
+            <div class="form-group">
+                <textarea class="form-control" placeholder="Isi Catatan" rows="5" id="comment" name="text"></textarea>
+            </div>
+        <div style = "float: right;">
+            <button type="button" class="btn btn-outline-secondary">Batal</button>
+            <button type="submit" class="btn btn-primary">Simpan</button>
         </div>
     </div>
-
+  </div>
 
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
