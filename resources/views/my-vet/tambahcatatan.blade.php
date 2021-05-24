@@ -19,7 +19,7 @@
 
 <body>
   <nav class="navbar navbar-expand-lg ">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="/home">
       <img src="{{ url('img/ourvet.png') }}" class="mt-2" width="120px" alt="">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
