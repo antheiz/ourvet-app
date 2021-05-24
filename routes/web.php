@@ -84,3 +84,13 @@ Route::get('/ask-vet', function () {
 Route::get('/konsultasi', function () {
     return view('ask-vet/konsultasi');
 });
+
+// Route Untuk register
+Route::get('/registerPemilikHewan', function () {
+    return view('registerPemilikHewan');
+});
+
+Route::get('/registerDokterHewan', function () {
+    return view('registerDokterHewan');
+});
+
