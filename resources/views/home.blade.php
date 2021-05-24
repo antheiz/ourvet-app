@@ -8,8 +8,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link href="{{ url('css/styles.css') }}" rel="stylesheet">
-    {{-- <link href="{{ secure_asset('css/styles.css') }}" rel="stylesheet"> --}}
+    {{-- <link href="{{ url('css/styles.css') }}" rel="stylesheet"> --}}
+    <link href="{{ secure_asset('css/styles.css') }}" rel="stylesheet">
     <style>
         
 
@@ -19,7 +19,7 @@
 
 <body>
   <nav class="navbar navbar-expand-lg ">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="/home">
       <img src="{{ url('img/ourvet.png') }}" class="mt-2" width="120px" alt="">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,22 +57,6 @@
               </li>
           </ul>
       </li>
-      {{-- <div class="btn-group dropdown">
-        <a class="nav-item nav-link dropdown-toggle text-dark" data-toggle="dropdown" href="#">
-          <i class="fas fa-user mr-3 text-center" style="font-size: 27px"></i>
-          <br><small style="color: #8190A5">Budi</small>
-        </a>
-        <div class="dropdown-menu dropdown-menu-right">
-          <button class="dropdown-item" type="button">
-            <i class="fas fa-user mr-1"></i>
-                      Profile
-          </button>
-          <button class="dropdown-item" type="button">
-            <i class="fas fa-sign-out-alt mr-1"></i>
-                      Logout
-          </button>
-        </div>
-      </div> --}}
       </div>
     </div>
   </nav>
@@ -118,14 +102,16 @@
         </div>
       </div>
     <div class="row">
-      <div class="col mr-5 ml-3">
-        <div class="card" style="width: 13rem;">
-          <img src="http://images.ctfassets.net/39g3nzg2xk87/71R2xAJ5MS1u1CBbZvnMbY/083112be72b7a6eaef090f55e0b68a0a/unknown-x-sharing-image.jpg" class="card-img-top" alt="...">
+      <a href="/my-vet">
+        <div class="col mr-5 ml-3">
+          <div class="card" style="width: 13rem;">
+            <img src="http://images.ctfassets.net/39g3nzg2xk87/71R2xAJ5MS1u1CBbZvnMbY/083112be72b7a6eaef090f55e0b68a0a/unknown-x-sharing-image.jpg" class="card-img-top" alt="...">
+          </div>
+          <div class="card-body">
+            <p class="card-text ml-5" style="color: #47525E">MyVet</p>
+          </div>
         </div>
-        <div class="card-body">
-          <p class="card-text ml-5" style="color: #47525E">MyVet</p>
-        </div>
-      </div>
+      </a>
       <a href="/komunitas/">
         <div class="col">
           <div class="card" style="width: 13rem;">

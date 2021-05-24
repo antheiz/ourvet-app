@@ -12,8 +12,8 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link href="{{ url('css/styles.css') }}" rel="stylesheet">
-    {{-- <link href="{{ secure_asset('css/styles.css') }}" rel="stylesheet"> --}}
+    {{-- <link href="{{ url('css/styles.css') }}" rel="stylesheet"> --}}
+    <link href="{{ secure_asset('css/styles.css') }}" rel="stylesheet">
     <style>
 
 
@@ -23,7 +23,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg ">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="/home">
             <img src="{{ url('img/ourvet.png') }}" class="mt-2" width="120px" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
