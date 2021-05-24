@@ -38,6 +38,7 @@ Route::get('/komunitas', function () {
     return view('komunitas/index');
 });
 
+
 //pembayaran
 Route::get('/pembayaran', function () {
     return view('pembayaran/index');
@@ -67,3 +68,10 @@ Route::get('/my-vet/tambahcatatan', function () {
     return view('my-vet/tambahcatatan');
 });
 
+//Route Untuk AskVet
+Route::get('/askvet', function () {
+    return view('ask-vet/askvet');
+});
+Route::get('/konsultasi', function () {
+    return view('ask-vet/konsultasi');
+});
