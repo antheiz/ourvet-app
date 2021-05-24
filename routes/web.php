@@ -78,7 +78,7 @@ Route::get('/my-vet/tambahcatatan', function () {
 });
 
 //Route Untuk AskVet
-Route::get('/askvet', function () {
+Route::get('/ask-vet', function () {
     return view('ask-vet/askvet');
 });
 Route::get('/konsultasi', function () {

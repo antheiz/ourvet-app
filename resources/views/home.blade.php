@@ -75,7 +75,7 @@
           <p class="card-text ml-5" style="color: #47525E">VetUpdate</p>
         </div>
       </div>
-      <a href="/ask-vet/penilaian">
+      <a href="/ask-vet">
         <div class="col">
           <div class="card" style="width: 13rem;">
             <img src="http://images.ctfassets.net/39g3nzg2xk87/71R2xAJ5MS1u1CBbZvnMbY/083112be72b7a6eaef090f55e0b68a0a/unknown-x-sharing-image.jpg" class="card-img-top" alt="...">
