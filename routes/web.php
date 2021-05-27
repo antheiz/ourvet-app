@@ -46,6 +46,10 @@ Route::get('/komunitas/detail_pertanyaan', function () {
     return view('komunitas/detail');
 });
 
+Route::get('/komunitas/balas_pertanyaan', function () {
+    return view('komunitas/komentar');
+});
+
 
 
 //pembayaran
@@ -93,4 +97,57 @@ Route::get('/registerPemilikHewan', function () {
 Route::get('/registerDokterHewan', function () {
     return view('registerDokterHewan');
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
