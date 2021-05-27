@@ -13,6 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Admmin Dashboard
+Route::get('/admin/dashboard', function () {
+    return view('admin/index');
+});
+
+
+// Home
 Route::get('/', function () {
     return view('index');
 });
@@ -49,7 +56,6 @@ Route::get('/komunitas/detail_pertanyaan', function () {
 Route::get('/komunitas/balas_pertanyaan', function () {
     return view('komunitas/komentar');
 });
-
 
 
 //pembayaran
