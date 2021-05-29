@@ -67,21 +67,21 @@
     </nav>
     <hr style="border:1px solid">
     <div class="container">
-        <div class="row" style="margin-top:7%">
-            <div class="col-3 bg-white jumbotron">
+        <div class="row" style="margin-top:7%;">
+            <div class="col-3 bg-white jumbotron" style="margin-bottom: 120px">
                 <div class="text-center pt-3 pb-3" style="background-color: #ED965D; color:#47525E; margin-top:-64px; margin-left:-32px;margin-right:-32px">
                     <a href="" style="color:inherit">
                         <b>Our Vet</b>
                     </a>
                 </div> 
                 <div class="text-center pt-3 pb-3" style="background-color: #F0F0F0; color:#47525E; margin-top:30px; margin-left:-32px;margin-right:-32px">
-                    <a href="" style="color:inherit">
+                    <a href="/admin/artikel" style="color:inherit">
                         <b>Artikel</b>
                         <i class="fas fa-arrow-right"></i> 
                     </a>
                 </div> 
                 <div class="text-center pt-3 pb-3" style="background-color: #F0F0F0; color:#47525E; margin-top:10px; margin-left:-32px;margin-right:-32px">
-                    <a href="" style="color:inherit">
+                    <a href="/admin/podcast" style="color:inherit">
                         <b>Podcast</b>
                     </a>
                 </div> 
@@ -111,6 +111,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.0/chart.min.js" integrity="sha512-yadYcDSJyQExcKhjKSQOkBKy2BLDoW6WnnGXCAkCoRlpHGpYuVuBqGObf3g/TdB86sSbss1AOP4YlGSb6EKQPg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 
 </html>

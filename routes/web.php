@@ -13,11 +13,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Admmin Dashboard
+// Admmin
 Route::get('/admin/dashboard', function () {
     return view('admin/index');
 });
 
+Route::get('/admin/artikel', function () {
+    return view('admin/artikel');
+});
+
+Route::get('/admin/podcast', function () {
+    return view('admin/podcast');
+});
 
 // Home
 Route::get('/', function () {
