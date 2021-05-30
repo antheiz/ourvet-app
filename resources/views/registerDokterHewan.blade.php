@@ -37,7 +37,7 @@
             <div class="text-center">
                 <h5 style="color:#47525E;" class="text-center">Create your account. It's free and only takes a minute</h5>
                 <label href="/registerPemilikHewan" class="radio-inline"><input type="radio" name="optradio" >Pemilik Hewan</label>
-                <label class="radio-inline"><input type="radio" name="optradio"checked>Dokter Hewan</label>
+                <label href="/registerDokterHewan" class="radio-inline"><input type="radio" name="optradio"checked>Dokter Hewan</label>
                 {{-- <a href="/registerPemilikHewan" class="radio-inline"><input type="radio" name="optradio">Pemilik Hewan </a> --}}
             </div>
 

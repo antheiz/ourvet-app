@@ -14,7 +14,7 @@
     <script type="text/javascript" src="app.js"></script>
     <style>
         .btn {
-          background-color: #49524c;
+          background-color:#2196F3;;
           border: none;
           color: white;
           padding: 16px 32px;
@@ -30,6 +30,47 @@
           color: white;
         }
 
+        body {
+        font-family: Arial;
+        }
+
+        * {
+        box-sizing: border-box;
+        }
+
+        form.example input[type=text] {
+        padding: 10px;
+        font-size: 17px;
+        border: 1px solid grey;
+        float: left;
+        width: 80%;
+        background: #f1f1f1;
+        }
+
+        form.example button {
+        float: left;
+        width: 20%;
+        padding: 10px;
+        background: #2196F3;
+        color: white;
+        font-size: 17px;
+        border: 1px solid grey;
+        border-left: none;
+        cursor: pointer;
+        }
+
+        form.example button:hover {
+        background: #0b7dda;
+        }
+
+        form.example::after {
+        content: "";
+        clear: both;
+        display: table;
+        }
+        .checked {
+        color: orange;
+        }
     </style>
     <title>AskVet | OurVet</title>
   </head>
@@ -42,7 +83,7 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon">Menu</span>
     </button>
-    <h4 style="text-align: center; width: 100%;">AskVet</h4>
+    <h4 style="text-align: center; width: 100%;">VetHouseLoc</h4>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav ml-auto mt-3">
         <a class="nav-item nav-link text-dark text-center" href="#">

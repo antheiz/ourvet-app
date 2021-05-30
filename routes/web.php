@@ -85,6 +85,10 @@ Route::get('/konsultasi', function () {
     return view('ask-vet/konsultasi');
 });
 
+Route::get('/chatting', function () {
+    return view('ask-vet/chatting');
+});
+
 // Route Untuk register
 Route::get('/registerPemilikHewan', function () {
     return view('registerPemilikHewan');
@@ -92,5 +96,15 @@ Route::get('/registerPemilikHewan', function () {
 
 Route::get('/registerDokterHewan', function () {
     return view('registerDokterHewan');
+});
+
+// Route Untuk VetHouseLoc
+
+Route::get('/vet-house-loc', function () {
+    return view('vet-house-loc/vetHouseLoc');
+});
+
+Route::get('/info-klinik', function () {
+    return view('vet-house-loc/info-klinik');
 });
 
