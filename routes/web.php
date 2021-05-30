@@ -110,6 +110,14 @@ Route::get('/konsultasi', function () {
     return view('ask-vet/konsultasi');
 });
 
+Route::get('/pesankonsul', function () {
+    return view('ask-vet/pesankonsul');
+});
+
+Route::get('/rinciankonsul', function () {
+    return view('ask-vet/rinciankonsul');
+});
+
 // Route Untuk register
 Route::get('/registerPemilikHewan', function () {
     return view('registerPemilikHewan');
