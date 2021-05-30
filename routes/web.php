@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/url', function () {
+    return view('link');
+});
+
 // Admmin
 Route::get('/admin/dashboard', function () {
     return view('admin/index');
