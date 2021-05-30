@@ -120,9 +120,6 @@ Route::get('/pesankonsul', function () {
 
 Route::get('/rinciankonsul', function () {
     return view('ask-vet/rinciankonsul');
-    
-Route::get('/chatting', function () {
-    return view('ask-vet/chatting');
 });
 
 // Route Untuk register
@@ -134,59 +131,6 @@ Route::get('/registerDokterHewan', function () {
     return view('registerDokterHewan');
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-=======
 // Route Untuk VetHouseLoc
 
 Route::get('/vet-house-loc', function () {
@@ -196,5 +140,3 @@ Route::get('/vet-house-loc', function () {
 Route::get('/info-klinik', function () {
     return view('vet-house-loc/info-klinik');
 });
->>>>>>> c464cd8c2f4adcaba79260cde56a88691905083a
-
