@@ -120,9 +120,6 @@ Route::get('/pesankonsul', function () {
 
 Route::get('/rinciankonsul', function () {
     return view('ask-vet/rinciankonsul');
-    
-Route::get('/chatting', function () {
-    return view('ask-vet/chatting');
 });
 
 // Route Untuk register
