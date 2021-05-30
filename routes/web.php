@@ -122,6 +122,11 @@ Route::get('/rinciankonsul', function () {
     return view('ask-vet/rinciankonsul');
 });
 
+Route::get('/chatting', function () {
+    return view('ask-vet/chatting');
+});
+
+
 // Route Untuk register
 Route::get('/registerPemilikHewan', function () {
     return view('registerPemilikHewan');
