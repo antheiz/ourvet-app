@@ -154,4 +154,8 @@ Route::get('/daily-vet', function () {
     return view('daily-vet/dailyvet');
 });
 
+//Route Untuk VetUpdate
+Route::get('/vetUpdate', function () {
+    return view('vet-update/vetUpdate');
+});
 

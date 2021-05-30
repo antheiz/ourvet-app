@@ -68,6 +68,7 @@
     </div>
     <div class="row" style="margin-top:5%">
       <div class="col">
+        <a href="/vetUpdate/">
         <div class="card" style="width: 13rem;">
           <img src="http://images.ctfassets.net/39g3nzg2xk87/71R2xAJ5MS1u1CBbZvnMbY/083112be72b7a6eaef090f55e0b68a0a/unknown-x-sharing-image.jpg" class="card-img-top" alt="...">
         </div>
