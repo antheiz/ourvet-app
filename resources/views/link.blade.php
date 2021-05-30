@@ -133,19 +133,23 @@
                             aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
                     </div>
                     <div class="input-group mb-3">
-                        <input type="text" class="form-control" value="https://ourvet.herokuapp.com//ask-vet/penilaian"
+                        <input type="text" class="form-control" value="https://ourvet.herokuapp.com/ask-vet/penilaian"
                             aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
                     </div>
                     <div class="input-group mb-3">
-                        <input type="text" class="form-control" value="https://ourvet.herokuapp.com//ask-vet/penilaian"
+                        <input type="text" class="form-control" value="https://ourvet.herokuapp.com/ask-vet/penilaian"
                             aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
                     </div>
                     <div class="input-group mb-3">
-                        <input type="text" class="form-control" value="https://ourvet.herokuapp.com//ask-vet/penilaian2"
+                        <input type="text" class="form-control" value="https://ourvet.herokuapp.com/ask-vet/penilaian2"
                             aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
                     </div>
                     <div class="input-group mb-3">
-                        <input type="text" class="form-control" value="https://ourvet.herokuapp.com//ask-vet/resep"
+                        <input type="text" class="form-control" value="https://ourvet.herokuapp.com/ask-vet/resep"
+                            aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" value="https://ourvet.herokuapp.com/chatting"
                             aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
                     </div>
                 </div>
@@ -161,7 +165,7 @@
                     </div>
                     
                 </div>
-                <!-- Akhir Ask Vet -->
+                <!-- Akhir Daily Vet -->
 
 
                 <!-- Awal Content Komunitas -->
@@ -225,7 +229,11 @@
                 <div class="tab-pane fade show" id="vethouseloc" role="tabpanel" aria-labelledby="home-tab">
                     <!-- GET -->
                     <div class="input-group mb-3">
-                        <input type="text" class="form-control" value="None"
+                        <input type="text" class="form-control" value="https://ourvet.herokuapp.com/vet-house-loc"
+                            aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" value="https://ourvet.herokuapp.com/info-klinik"
                             aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
                     </div>
                 </div>
