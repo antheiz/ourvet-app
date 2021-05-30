@@ -134,6 +134,16 @@ Route::get('/registerDokterHewan', function () {
     return view('registerDokterHewan');
 });
 
+// Route Untuk VetHouseLoc
+
+Route::get('/vet-house-loc', function () {
+    return view('vet-house-loc/vetHouseLoc');
+});
+
+Route::get('/info-klinik', function () {
+    return view('vet-house-loc/info-klinik');
+});
+
 
 
 
