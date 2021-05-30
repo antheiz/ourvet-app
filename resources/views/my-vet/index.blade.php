@@ -27,15 +27,38 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav ml-auto mt-3">
-        <a class="nav-item nav-link text-dark text-center" href="#">
+        <!--a class="nav-item nav-link text-dark text-center" href="#">
           <i class="fas fa-file-invoice" style="font-size: 27px"></i>
           <br><small style="color: #8190A5">Pembayaran</small>
-        </a>
-        <p style="font-size: 40px; margin-top:-10px">|</p>
+        </a-->
+
+        <li class="nav-item dropdown">
+            <a class="nav-item nav-link dropdown-toggle text-dark" data-toggle="dropdown" href="#">
+              <i class="fas fa-file-invoice" style="font-size: 27px"></i>
+              <br><small style="color: #8190A5">Pembayaran</small>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-right text-uppercase" >
+                <li>
+                    <a class="dropdown-item" href="/pembayaran1">
+                        <i class="fas fa-file-invoice mr-1"></i>
+                        Pembayaran
+                    </a>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="/signin">
+                        <i class="fas fa-receipt mr-1"></i>
+                        History Transaksi
+                    </a>
+                </li>
+            </ul>
+        </li>
+
+        <p style="font-size: 40px; margin-top:-10px"> | </p>
         <a class="nav-item nav-link text-dark text-center" href="#">
           <i class="fas fa-shopping-cart" style="font-size: 27px"></i>
           <br><small style="color: #8190A5">Keranjang</small>
         </a>
+
         <p style="font-size: 40px; margin-top:-10px">|</p>
         <li class="nav-item dropdown" style="margin-right: 50%">
           <a class="nav-item nav-link dropdown-toggle text-dark" data-toggle="dropdown" href="#">
@@ -78,27 +101,11 @@
   </nav>
   <hr style="border:1px solid">
 
-    <div class="container">
-            <div>
-                <a href="/my-vet/tambahcatatan" style = "float: right;">
-                    <button type="button" class="btn btn-outline-dark">+ Tambah Catatan</button>
-                </a>
-                <a style = "float: left;">
-                    <p style="color: #5c646e">Catatan Riwayat Kesehatan Hewan</p>
-                </a>
-            </div>
-    </div>
-
-    <div class="container d-flex justify-content-center">
-        <div class="jumbotron mt-3" style="background-color: #FFBA5C; width:100%; height:450px;">
-            <p class="text-center text-align: center;">Anda Tidak Memiliki Catatan</p>
-            </div>
-        </div>
-    </div>
-
-
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<br/>
+  @yield('konten')
+<br/>
 </body>
 </html>

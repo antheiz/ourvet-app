@@ -70,6 +70,14 @@ Route::get('/pembayaran', function () {
     return view('pembayaran/index');
 });
 
+Route::get('/pembayaran1', function () {
+    return view('pembayaran/pembayaran');
+});
+
+Route::get('/pembayaran2', function () {
+    return view('pembayaran/pembayaran2');
+});
+
 //penilaian
 Route::get('/ask-vet/penilaian', function () {
     return view('ask-vet/penilaian');
@@ -86,12 +94,12 @@ Route::get('/ask-vet/resep', function () {
 
 //menambah catatan kesehatan hewan
 Route::get('/my-vet', function () {
-    return view('my-vet/index');
+    return view('my-vet/myvet');
 });
 
 //halaman tambah catatan kesehatan hewan 2
 Route::get('/my-vet/tambahcatatan', function () {
-    return view('my-vet/tambahcatatan');
+    return view('my-vet/tambahcatatan2');
 });
 
 //Route Untuk AskVet
