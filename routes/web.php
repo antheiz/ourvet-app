@@ -146,3 +146,8 @@ Route::get('/info-klinik', function () {
     return view('vet-house-loc/info-klinik');
 });
 
+//Route Untuk VetUpdate
+Route::get('/vetUpdate', function () {
+    return view('vet-update/vetUpdate');
+});
+
