@@ -94,3 +94,12 @@ Route::get('/registerDokterHewan', function () {
     return view('registerDokterHewan');
 });
 
+//DailyVet
+Route::get('/daily-vet', function () {
+    return view('daily-vet/index');
+});
+Route::get('/daily-vet', function () {
+    return view('daily-vet/dailyvet');
+});
+
+
