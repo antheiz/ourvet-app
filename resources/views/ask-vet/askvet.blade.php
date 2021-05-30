@@ -1,6 +1,6 @@
 @extends('ask-vet.index')
 @section('konten')
-<div class="card-deck">
+<div class="card-deck" style="margin : 10px;">
     <div class="card">
       <img src= "{{ url('img/pesan-konsultasi.jpg') }}" class="card-img-top" alt="Pesanan Konsultasi">
       <div class="card-body">
@@ -20,7 +20,7 @@
         <br>
         <br>
         <br>
-        <button class="btn">Konsultasi</button>
+        <a href="{{ url('/konsultasi') }}"><button class="btn">Konsultasi</button></a>
     </div>
     </div>
     <div class="card">

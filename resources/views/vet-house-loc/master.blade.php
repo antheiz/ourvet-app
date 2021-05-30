@@ -8,11 +8,13 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    {{-- <link href="{{ url('css/styles.css') }}" rel="stylesheet"> --}}
-    <link href="{{ secure_asset('css/styles.css') }}" rel="stylesheet">
+    <link href="{{ url('css/styles.css') }}" rel="stylesheet">
+    {{-- <link href="{{ secure_asset('css/styles.css') }}" rel="stylesheet"> --}}
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
     <style>
         .btn {
-          background-color: #49524c;
+          background-color:#2196F3;;
           border: none;
           color: white;
           padding: 16px 32px;
@@ -28,6 +30,47 @@
           color: white;
         }
 
+        body {
+        font-family: Arial;
+        }
+
+        * {
+        box-sizing: border-box;
+        }
+
+        form.example input[type=text] {
+        padding: 10px;
+        font-size: 17px;
+        border: 1px solid grey;
+        float: left;
+        width: 80%;
+        background: #f1f1f1;
+        }
+
+        form.example button {
+        float: left;
+        width: 20%;
+        padding: 10px;
+        background: #2196F3;
+        color: white;
+        font-size: 17px;
+        border: 1px solid grey;
+        border-left: none;
+        cursor: pointer;
+        }
+
+        form.example button:hover {
+        background: #0b7dda;
+        }
+
+        form.example::after {
+        content: "";
+        clear: both;
+        display: table;
+        }
+        .checked {
+        color: orange;
+        }
     </style>
     <title>AskVet | OurVet</title>
   </head>
@@ -40,7 +83,7 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon">Menu</span>
     </button>
-    <h4 style="text-align: center; width: 100%;">AskVet</h4>
+    <h4 style="text-align: center; width: 100%;">VetHouseLoc</h4>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav ml-auto mt-3">
         <a class="nav-item nav-link text-dark text-center" href="#">
@@ -97,9 +140,6 @@
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
-<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script type="text/javascript" src="app.js"></script>
 <br/>
   @yield('konten')
 <br/>
