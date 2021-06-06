@@ -160,7 +160,7 @@
                 <div class="tab-pane fade show" id="dailyvet" role="tabpanel" aria-labelledby="home-tab">
                     <!-- GET -->
                     <div class="input-group mb-3">
-                        <input type="text" class="form-control" value="None"
+                        <input type="text" class="form-control" value="https://ourvet.herokuapp.com/daily-vet"
                             aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
                     </div>
                     

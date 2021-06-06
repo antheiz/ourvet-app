@@ -1,7 +1,7 @@
 @extends('ask-vet.index')
 @section('konten')
 
-<h4>Rincian Konsultasi</h4>
+<center><h4>Rincian Konsultasi</h4></center>
 
 <h1 style="display:inline-block"></h1>
 <div class="container d-flex justify-content-center">

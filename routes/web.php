@@ -150,4 +150,10 @@ Route::get('/info-klinik', function () {
 Route::get('/vetUpdate', function () {
     return view('vet-update/vetUpdate');
 });
+//DailyVet
+Route::get('/daily-vet', function () {
+    return view('daily-vet/dailyvet');
+});
+
+
 
