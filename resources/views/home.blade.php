@@ -27,10 +27,32 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav ml-auto mt-3">
-        <a class="nav-item nav-link text-dark text-center" href="#">
+        <!--a class="nav-item nav-link text-dark text-center" href="#">
           <i class="fas fa-file-invoice" style="font-size: 27px"></i>
           <br><small style="color: #8190A5">Pembayaran</small>
-        </a>
+        </a-->
+
+        <li class="nav-item dropdown">
+            <a class="nav-item nav-link dropdown-toggle text-dark" data-toggle="dropdown" href="#">
+              <i class="fas fa-file-invoice" style="font-size: 27px"></i>
+              <br><small style="color: #8190A5">Pembayaran</small>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-right text-uppercase" >
+                <li>
+                    <a class="dropdown-item" href="/pembayaran1">
+                        <i class="fas fa-file-invoice mr-1"></i>
+                        Pembayaran
+                    </a>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="/signin">
+                        <i class="fas fa-receipt mr-1"></i>
+                        History Transaksi
+                    </a>
+                </li>
+            </ul>
+        </li>
+
         <p style="font-size: 40px; margin-top:-10px">|</p>
         <a class="nav-item nav-link text-dark text-center" href="#">
           <i class="fas fa-shopping-cart" style="font-size: 27px"></i>
