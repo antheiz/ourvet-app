@@ -8,8 +8,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    {{-- <link href="{{ url('css/styles.css') }}" rel="stylesheet"> --}}
-    <link href="{{ secure_asset('css/styles.css') }}" rel="stylesheet">
+    <link href="{{ url('css/styles.css') }}" rel="stylesheet">
+    {{-- <link href="{{ secure_asset('css/styles.css') }}" rel="stylesheet"> --}}
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="app.js"></script>
     <style>
@@ -25,14 +25,12 @@
           float: center;
           width: 250px;
         }
-
         .btn:hover {
           background-color: #19e63b;
           color: white;
         }
-
     </style>
-    <title>AskVet | OurVet</title>
+    <title>VetUpdate | OurVet</title>
   </head>
 
 <body>
@@ -43,7 +41,7 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon">Menu</span>
     </button>
-    <h4 style="text-align: center; width: 100%;">AskVet</h4>
+    <h4 style="text-align: center; width: 100%;">VetUpdate</h4>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav ml-auto mt-3">
         <a class="nav-item nav-link text-dark text-center" href="#">

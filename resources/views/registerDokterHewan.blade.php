@@ -24,9 +24,7 @@
       <span class="navbar-toggler-icon">Menu</span>
     </button>
 
-    {{-- Tulisan REGISTER tidak bisa ditengah --}}
-    <div class="d-flex justify-content-center" style="color:#47525E;">REGISTER
-    </div>
+    <h4 style="text-align: center; width: 100%;">REGISTER</h4>
 
   </nav>
 
