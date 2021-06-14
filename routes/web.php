@@ -128,55 +128,11 @@ Route::get('/registerDokterHewan', function () {
 });
 
 
+//Route untuk VetUpdate
+Route::get('/kategorikucing', function () {
+    return view('vet-update/kategorikucing');
+});
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Route::get('/artikelkucing1', function () {
+    return view('vet-update/artikelkucing1');
+});
