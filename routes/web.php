@@ -146,3 +146,12 @@ Route::get('/info-klinik', function () {
     return view('vet-house-loc/info-klinik');
 });
 
+//DailyVet
+Route::get('/daily-vet', function () {
+    return view('daily-vet/index');
+});
+Route::get('/daily-vet', function () {
+    return view('daily-vet/dailyvet');
+});
+
+
