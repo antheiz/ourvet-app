@@ -167,3 +167,4 @@ Route::get('/kategorikucing', function () {
 Route::get('/artikelkucing1', function () {
     return view('vet-update/artikelkucing1');
 });
+
