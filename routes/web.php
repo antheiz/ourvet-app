@@ -94,19 +94,19 @@ Route::get('/rinciankonsul', function () {
 });
 
 // Route Untuk register
-Route::get('/register/PemilikHewan', function () {
+Route::get('/registerPemilikHewan', function () {
     return view('registerPemilikHewan');
 });
 
-Route::get('/register/DokterHewan', function () {
+Route::get('/registerDokterHewan', function () {
     return view('registerDokterHewan');
 });
 
 //Route untuk VetUpdate
-Route::get('vet-update/kategori_kucing', function () {
+Route::get('/kategorikucing', function () {
     return view('vet-update/kategorikucing');
 });
 
-Route::get('vet-update/artikel_kucing1', function () {
+Route::get('/artikelkucing1', function () {
     return view('vet-update/artikelkucing1');
 });
