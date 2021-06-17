@@ -25,7 +25,7 @@
       </div>
       <div class="col-md-8">
         <div class="card-body">
-          <h5 class="card-title">Cara Menghilangkan Kutu pada Kucing Kesayangan</h5>
+          <h5 class="card-title" href="/vet-update/artikel_kucing1">Cara Menghilangkan Kutu pada Kucing Kesayangan</h5>
           <i class='far fa-clock'>20 Maret 2021</i>
           <i class="fa fa-eye">50 pembaca</i>
           <i class='far fa-thumbs-up'>40 disukai</i>
