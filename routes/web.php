@@ -150,25 +150,12 @@ Route::get('/info-klinik', function () {
     return view('vet-house-loc/info-klinik');
 });
 
-//DailyVet
-Route::get('/daily-vet', function () {
-    return view('daily-vet/index');
+Route::get('/vetUpdate', function () {
+    return view('vet-update/vetUpdate');
 });
+//DailyVet
 Route::get('/daily-vet', function () {
     return view('daily-vet/dailyvet');
 });
 
-//Route Untuk VetUpdate
-Route::get('/vetUpdate', function () {
-    return view('vet-update/vetUpdate');
-});
-
-//Route untuk VetUpdate
-Route::get('/kategorikucing', function () {
-    return view('vet-update/kategorikucing');
-});
-
-Route::get('/artikelkucing1', function () {
-    return view('vet-update/artikelkucing1');
-});
 
