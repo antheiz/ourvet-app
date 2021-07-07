@@ -9,7 +9,7 @@
         <br>
         <br>
         <br>
-        <button class="btn">Pesan</button>
+        <a href="{{ url('/pesankonsul') }}"><button class="btn">Pesan</button></a>
     </div>
     </div>
     <div class="card">

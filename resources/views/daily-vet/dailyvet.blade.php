@@ -1,6 +1,6 @@
 @extends('daily-vet.index')
 @section('konten')
-<div class="card-deck">
+<div class="card-deck" style="margin : 20px;">
     <div class="card">
       <img src= "{{ url('img/snackanjing.png') }}" class="card-img-top" alt="Snack Anjing">
       <div class="card-body">
