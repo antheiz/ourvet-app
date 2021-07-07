@@ -1,4 +1,4 @@
-@extends('my-vet.index')
+@extends('pembayaran.index2')
 @section('konten')
 
 
