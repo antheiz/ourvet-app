@@ -55,9 +55,9 @@ Route::get('/register', function () {
 // Komunitas
 
 // Route::get('/komunitas','komunitasController@index');
-Route::get('/komunitas', [App\Http\Controllers\komunitasController::class, 'index']);
+// Route::get('/komunitas', [App\Http\Controllers\komunitasController::class, 'index']);
 
-Route::get('/komunitasi', function () {
+Route::get('/komunitas', function () {
     return view('komunitas/index');
 });
 
