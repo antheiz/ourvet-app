@@ -1,13 +1,10 @@
 @extends('ask-vet.index')
 @section('konten')
 
-<<<<<<< HEAD
 <center><h4>Rincian Konsultasi</h4></center>
-=======
-<div style="margin : 20px;">
+{{-- <div style="margin : 20px;">
     <h4>Rincian Konsultasi</h4>
-</div>
->>>>>>> e022632ba1256f3ca3f6ef74e9c3eb7d291050d2
+</div> --}}
 
 <h1 style="display:inline-block"></h1>
 <div class="container d-flex justify-content-center">
