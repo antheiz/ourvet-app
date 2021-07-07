@@ -133,11 +133,11 @@ Route::get('/chatting', function () {
 
 
 // Route Untuk register
-Route::get('/registerPemilikHewan', function () {
+Route::get('/register/PemilikHewan', function () {
     return view('registerPemilikHewan');
 });
 
-Route::get('/registerDokterHewan', function () {
+Route::get('/register/DokterHewan', function () {
     return view('registerDokterHewan');
 });
 
@@ -159,7 +159,7 @@ Route::get('/vet-update/kategori_kucing', function () {
     return view('vet-update/kategorikucing');
 });
 
-Route::get('/vet-update/artikel_kucing1', function () {
+Route::get('vet-update/artikel_kucing1', function () {
     return view('vet-update/artikelkucing1');
 });
 //DailyVet
