@@ -40,62 +40,64 @@
                 <b>Hamsters</b>
             </a>
         </div>
-        <div class="col-1">
-            <div class="text-dark bg-white">
-                <img src="https://image.freepik.com/free-vector/404-error-background_23-2148071744.jpg" class="" width="120px">
-            </div> <br>
+        {{-- @foreach($data as $data) --}}
+            <div class="col-1">
+                <div class="text-dark bg-white">
+                    <img src="https://image.freepik.com/free-vector/404-error-background_23-2148071744.jpg" class="" width="120px">
+                </div> <br>
 
-            <div class="text-dark bg-white">
-                <img src="https://image.freepik.com/free-vector/404-error-background_23-2148071744.jpg" width="120px">
-            </div> 
-        </div>
-        <div class="col" style="margin-left: 25px">
-            <div class="text-dark bg-white pl-2" style="height: 120px">
-                <div class="row">
-                    <div class="col">
-                        <p><b>John Doe</b> <i>1 jam yang lalu</i></p> 
-                        <a href="/komunitas/detail_pertanyaan">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        </a>
-                        <a href="" class="btn btn-primary">
-                            <i class="fas fa-tags"></i>
-                            Kucing
-                        </a>
+                <div class="text-dark bg-white">
+                    <img src="https://image.freepik.com/free-vector/404-error-background_23-2148071744.jpg" width="120px">
+                </div> 
+            </div>
+            <div class="col" style="margin-left: 25px">
+                <div class="text-dark bg-white pl-2" style="height: 120px">
+                    <div class="row">
+                        <div class="col">
+                            <p><b>John Doe</b> <i>1 jam yang lalu</i></p> 
+                            <a href="/komunitas/detail_pertanyaan">
+                                {{-- <p>{{ $data->content }}</p> --}}
+                            </a>
+                            <a href="" class="btn btn-primary">
+                                <i class="fas fa-tags"></i>
+                                Kucing
+                            </a>
+                        </div>
+                        <div class="col-2">
+                            <p> <b>5</b>
+                                <i class="fas fa-comments pt-2 ml-3" style="font-size: 30px"></i>
+                            </p>
+                            <p> <b>10</b>
+                                <i class="fas fa-chart-bar pt-3 ml-3" style="font-size: 30px"></i>
+                            </p>
+                        </div>
                     </div>
-                    <div class="col-2">
-                        <p> <b>5</b>
-                            <i class="fas fa-comments pt-2 ml-3" style="font-size: 30px"></i>
-                        </p>
-                        <p> <b>10</b>
-                            <i class="fas fa-chart-bar pt-3 ml-3" style="font-size: 30px"></i>
-                        </p>
-                    </div>
-                </div>
-            </div> <br>
+                </div> <br>
 
-            <div class="text-dark bg-white pl-2" style="height: 120px">
-                <div class="row">
-                    <div class="col">
-                        <p><b>Jane Doe</b> <i> 1 jam yang lalu</i></p> 
-                        <a href="/komunitas/detail_pertanyaan">
-                            <p>Apa makanan yang baik untuk kucing ?</p>
-                        </a>
-                        <a href="" class="btn btn-primary">
-                            <i class="fas fa-tags"></i>
-                            Kucing
-                        </a>
-                    </div>
-                    <div class="col-2">
-                        <p> <b>5</b>
-                            <i class="fas fa-comments pt-2 ml-3" style="font-size: 30px"></i>
-                        </p>
-                        <p> <b>10</b>
-                            <i class="fas fa-chart-bar pt-3 ml-3" style="font-size: 30px"></i>
-                        </p>
+                <div class="text-dark bg-white pl-2" style="height: 120px">
+                    <div class="row">
+                        <div class="col">
+                            <p><b>Jane Doe</b> <i> 1 jam yang lalu</i></p> 
+                            <a href="/komunitas/detail_pertanyaan">
+                                {{-- <p>{{ $data->content }}</p> --}}
+                            </a>
+                            <a href="" class="btn btn-primary">
+                                <i class="fas fa-tags"></i>
+                                Kucing
+                            </a>
+                        </div>
+                        <div class="col-2">
+                            <p> <b>5</b>
+                                <i class="fas fa-comments pt-2 ml-3" style="font-size: 30px"></i>
+                            </p>
+                            <p> <b>10</b>
+                                <i class="fas fa-chart-bar pt-3 ml-3" style="font-size: 30px"></i>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        {{-- @endforeach --}}
     </div>
     <div class="mt-5 mb-5 d-flex justify-content-end">
         <ul class="pagination">
