@@ -25,14 +25,12 @@
           float: center;
           width: 250px;
         }
-
         .btn:hover {
           background-color: #19e63b;
           color: white;
         }
-
     </style>
-    <title>AskVet | OurVet</title>
+    <title>VetUpdate | OurVet</title>
   </head>
 
 <body>
@@ -43,7 +41,7 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon">Menu</span>
     </button>
-    <h4 style="text-align: center; width: 100%;">AskVet</h4>
+    <h4 style="text-align: center; width: 100%;">VetUpdate</h4>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav ml-auto mt-3">
         <a class="nav-item nav-link text-dark text-center" href="#">

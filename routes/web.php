@@ -83,16 +83,16 @@ Route::get('/pembayaran2', function () {
 });
 
 //penilaian
-Route::get('/ask-vet/penilaian', function () {
+Route::get('/penilaian', function () {
     return view('ask-vet/penilaian');
 });
 
-Route::get('/ask-vet/penilaian2', function () {
+Route::get('/penilaian2', function () {
     return view('ask-vet/penilaian2');
 });
 
 //resep
-Route::get('/ask-vet/resep', function () {
+Route::get('/resep', function () {
     return view('ask-vet/resep');
 });
 
@@ -146,7 +146,6 @@ Route::get('/info-klinik', function () {
     return view('vet-house-loc/info-klinik');
 });
 
-//Route Untuk VetUpdate
 Route::get('/vetUpdate', function () {
     return view('vet-update/vetUpdate');
 });
@@ -154,6 +153,5 @@ Route::get('/vetUpdate', function () {
 Route::get('/daily-vet', function () {
     return view('daily-vet/dailyvet');
 });
-
 
 
