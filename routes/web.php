@@ -164,11 +164,11 @@ Route::get('/vetUpdate', function () {
 });
 
 //Route untuk VetUpdate
-Route::get('/kategorikucing', function () {
+Route::get('/vet-update/kategori_kucing', function () {
     return view('vet-update/kategorikucing');
 });
 
-Route::get('/artikelkucing1', function () {
+Route::get('/vet-update/artikel_kucing1', function () {
     return view('vet-update/artikelkucing1');
 });
 

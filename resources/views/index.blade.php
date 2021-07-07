@@ -10,7 +10,7 @@
     {{-- <link href="{{ url('css/styles.css') }}" rel="stylesheet"> --}}
     <link href="{{ secure_asset('css/styles.css') }}" rel="stylesheet"> 
     <style>
-        
+
 
     </style>
     <title>Welcome | OurVet</title>
@@ -26,7 +26,7 @@
             <hr style="border:1px solid; margin: 0px 0 40px 0">
             <div class="form-signin">
               <div class="form-label-group d-flex justify-content-center">
-                <a href="/registerPemilikHewan" class="btn btn-lg col-lg-6 btn-dark btn-block" style="border-radius: 8px">Register</a>
+                <a href="/register/PemilikHewan" class="btn btn-lg col-lg-6 btn-dark btn-block" style="border-radius: 8px">Register</a>
               </div>
               <br>
               <div class="form-label-group d-flex justify-content-center">
