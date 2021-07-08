@@ -3,7 +3,7 @@
 
   <div class="container">
     <a style = "float: right;">
-        <button type="button" class="btn btn-outline-dark">Selanjutnya</button>
+        <a href="{{ url('/ask-vet') }}"><button type="button" class="btn btn-outline-dark">Selanjutnya</button></a>
     </a>
     <br>
 

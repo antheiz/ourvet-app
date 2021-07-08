@@ -1,7 +1,6 @@
 @extends('ask-vet.index')
 @section('konten')
 
-<<<<<<< HEAD
 <div style="margin : 30px;">
 <h2>Jadwal Konsultasi Dokter Hewan</h2>
 <br>
@@ -13,23 +12,6 @@
   </form>
 <br>
 <div class="card mb-4" style="max-width: 850px;">
-=======
-<div style="margin : 20px;">
-    <h2>Jadwal Konsultasi Dokter Hewan</h2>
-</div>
-
-<div style="margin : 20px;">
-    <form action="/action_page.php">
-        <label for="konsultasi">Hari/Tanggal:</label>
-        <input type="date" id="jadwalkonsul" name="jadwal">
-        <label for="appt">Jam:</label>
-        <input type="time" id="appt" name="appt">
-  </form>
-</div>
-
-<div style="margin : 20px;">
-<div class="card mb-3" style="max-width: 850px;">
->>>>>>> e022632ba1256f3ca3f6ef74e9c3eb7d291050d2
     <div class="row no-gutters">
       <div class="col-md-4">
         <img src="{{ url('') }}" class="card-img" alt="dokter1" height="100%">

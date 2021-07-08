@@ -11,7 +11,7 @@
     <link href="{{ url('css/styles.css') }}" rel="stylesheet">
     {{-- <link href="{{ secure_asset('css/styles.css') }}" rel="stylesheet"> --}}
     <style>
-    
+
     </style>
     <title>Home | OurVet</title>
   </head>
@@ -62,7 +62,7 @@
                 <hr style="border: 1px solid">
             </div>
             <div class="text-right">
-                <a href="" class="btn btn-dark pl-4 pr-4 mt-3">Edit</a>
+                <a href="{{ url('/editprofile') }}" class="btn btn-dark pl-4 pr-4 mt-3">Edit</a>
             </div>
         </div>
     </div>
