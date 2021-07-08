@@ -131,6 +131,9 @@ Route::get('/chatting', function () {
     return view('ask-vet/chatting');
 });
 
+Route::get('/riwayatkonsultasi', function () {
+    return view('ask-vet/riwayatkonsultasi');
+});
 
 // Route Untuk register
 Route::get('/register/PemilikHewan', function () {
@@ -150,18 +153,23 @@ Route::get('/info-klinik', function () {
     return view('vet-house-loc/info-klinik');
 });
 
+//VetUpdate
 Route::get('/vetUpdate', function () {
     return view('vet-update/vetUpdate');
 });
 
-//Route untuk VetUpdate
-Route::get('/vet-update/kategori_kucing', function () {
+Route::get('vet-update/kategorikucing', function () {
     return view('vet-update/kategorikucing');
 });
 
-Route::get('vet-update/artikel_kucing1', function () {
-    return view('vet-update/artikelkucing1');
+Route::get('vet-update/artikelkucing', function () {
+    return view('vet-update/artikelkucing');
 });
+
+Route::get('vet-update/podcastkucing', function () {
+    return view('vet-update/podcastkucing');
+});
+
 //DailyVet
 Route::get('/daily-vet', function () {
     return view('daily-vet/dailyvet');

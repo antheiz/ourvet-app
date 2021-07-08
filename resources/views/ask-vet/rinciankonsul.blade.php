@@ -2,9 +2,6 @@
 @section('konten')
 
 <center><h4>Rincian Konsultasi</h4></center>
-{{-- <div style="margin : 20px;">
-    <h4>Rincian Konsultasi</h4>
-</div> --}}
 
 <h1 style="display:inline-block"></h1>
 <div class="container d-flex justify-content-center">
