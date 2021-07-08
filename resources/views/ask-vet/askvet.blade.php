@@ -31,7 +31,7 @@
           <br>
           <br>
           <br>
-          <button class="btn">Lihat</button>
+          <a href="{{ url('/riwayatkonsultasi') }}"><button class="btn">Lihat</button></a>
         </div>
       </div>
   </div>

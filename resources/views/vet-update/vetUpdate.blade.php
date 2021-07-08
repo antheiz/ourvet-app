@@ -9,7 +9,7 @@
             <img src="{{ url('img/kucing.jpg') }}"class="card-img" alt="dokter2" height="100%">
             </div>
             <br>
-            <button class="btn" style = "background-color:Transparent; border: 2px solid rgb(59, 52, 52); color: rgb(59, 52, 52);">Kucing</button>
+            <a href="{{ url('vet-update/kategorikucing') }}"><button class="btn" style = "background-color:Transparent; border: 2px solid rgb(59, 52, 52); color: rgb(59, 52, 52);">Kucing</button></a>
         </div>
         <div class="col-3">
             <div>
@@ -51,7 +51,7 @@
                 <img src="{{ url('img/kucing.jpg') }}"class="card-img" alt="dokter2" height="100%">
                 </div>
                 <br>
-                <button class="btn" style = "background-color:Transparent; border: 2px solid rgb(59, 52, 52); color: rgb(59, 52, 52);">Bucin with Majikan</button>
+                <a href="{{ url('vet-update/podcastkucing') }}"><button class="btn" style = "background-color:Transparent; border: 2px solid rgb(59, 52, 52); color: rgb(59, 52, 52);">Bucin with Majikan</button></a>
             </div>
             <div class="col-3">
                 <div>
